@@ -69,7 +69,6 @@ A simple use of a whiteboard is enough to brainstorm ideas and methods to record
 - [CMS Threat Modeling Handbook](https://security.cms.gov/policy-guidance/threat-modeling-handbook)
 - [Threat Model and Security Considerations](https://www.ietf.org/rfc/rfc6819.txt)
 - [Braiterman et al 2020](https://threatmodelingmanifesto.org)
-- [Shostack 2022](https://microsoft.com/en-us/security/blog/2022/05/10/welcome-to-the-worlds-shortest-threat-modeling-course/)
 - [OWASP CheatSheets Series Team 2021](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html)
 
 ---
