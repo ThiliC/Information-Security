@@ -66,7 +66,7 @@ A simple use of a whiteboard is enough to brainstorm ideas and methods to record
 - Serving as a resource for CMS Penetration Testing and Contingency Planning activities
 
 #### References:
-- [CMS Threat Modeling Handbook](https://www.cms.gov/Information-Security-Privacy-Group/CMS-Threat-Modeling-Handbook)
+- [CMS Threat Modeling Handbook](https://security.cms.gov/policy-guidance/threat-modeling-handbook)
 - [Threat Model and Security Considerations](https://www.ietf.org/rfc/rfc6819.txt)
 - [Braiterman et al 2020](https://threatmodelingmanifesto.org)
 - [Shostack 2022](https://microsoft.com/en-us/security/blog/2022/05/10/welcome-to-the-worlds-shortest-threat-modeling-course/)
