@@ -1,14 +1,16 @@
-# Table of Contents
+# Should Tero wear a helmet?
+
+## Table of Contents
 
 1. [Threat Modeling](threat-modeling)
    - [Infosec Scene](#infosec-scene)
      - a. [Security Hygiene](#security-hygiene)
      - b. [Make-Belief Boogie-Man](#make-belief-boogie-man)
-    ------------------
+---
 
 ## Threat Modeling
 
-### What is Threat Modeling?
+#### What is Threat Modeling?
 Threat modeling is identifying and communicating information about the threats that may impact a system or network. Then defining countermeasures to prevent or mitigate the effects of threats to the system. 
 
 The following question framework can help to organize threat modeling:
@@ -24,7 +26,7 @@ The following question framework can help to organize threat modeling:
 
 The earlier we identify the threats, the more efficiently we can find solutions to thwart the attack vectors.
 
-### HOW CAN WE DO THE THREAT MODEL PROCESS?
+#### HOW CAN WE DO THE THREAT MODEL PROCESS?
 - **Scope your work**  
   We can always draw diagrams, data flow diagrams to identify entry points to see where an attacker could interact with the application. By identifying trust levels is a good way of ensuring the access rights that the application will grant to external entities. 
   
@@ -42,10 +44,10 @@ The earlier we identify the threats, the more efficiently we can find solutions 
 - **Assess your work**  
   Finally, we should determine whether we’ve done the work. Are there records showing a diagram, a threat list, and a control list? 
 
-### Threat Modeling Tools:
-A simple use of a whiteboard is enough to brainstorm ideas and methods to record threats and mitigations. But the following tools are used in the CMS modeling team to communicate within the team and record ideas and information: 
+#### Threat Modeling Tools:
+A simple use of a whiteboard is enough to brainstorm ideas and methods to record threats and mitigations. But the following tools can be used to communicate within the team and record ideas and information: 
+
 - Mural (for drawing DFD diagrams)
-- CMS Confluence (for recording threats)
 - Zoom (for team collaboration)
 - YouTube (for additional training)
 - OWASP Threat Dragon
@@ -54,7 +56,7 @@ A simple use of a whiteboard is enough to brainstorm ideas and methods to record
 - ThreatModeler
 - Devici
 
-### Benefits of Threat Modeling:
+#### Benefits of Threat Modeling:
 - Detecting problems early in the software development life cycle (SDLC)
 - Identifying system security requirements 
 - Creating a structured plan to address both system requirements and deficiencies
@@ -63,12 +65,12 @@ A simple use of a whiteboard is enough to brainstorm ideas and methods to record
 - Getting inside the minds of threat agents and their motivations, skills, and capabilities 
 - Serving as a resource for CMS Penetration Testing and Contingency Planning activities
 
-### References
-- CMS Threat Modeling Handbook : CMS Threat Modeling Handbook | CMS Information Security & Privacy Group
-- Threat Model and Security Considerations: RFC 6819 - OAuth 2.0 Threat Model and Security Considerations (ietf.org)
-- Braiterman et al 2020: Threat modeling manifesto
-- Shostack 2022: Welcome to the World's Shortest Threat Modeling Course (12 parts, about 15 min total, audio is enough for all except video 7 "Data flow diagrams")
-- OWASP CheatSheets Series Team 2021: Threat Modeling Cheat Sheet
+#### References:
+- [CMS Threat Modeling Handbook :] (CMS Threat Modeling Handbook | CMS Information Security & Privacy Group)
+- [Threat Model and Security Considerations:] (RFC 6819 - OAuth 2.0 Threat Model and Security Considerations (ietf.org))
+- [Braiterman et al 2020:] (Threat modeling manifesto)
+- [Shostack 2022:]( Welcome to the World's Shortest Threat Modeling Course (12 parts, about 15 min total, audio is enough for all except video 7 "Data flow diagrams"))
+- [OWASP CheatSheets Series Team 2021:](Threat Modeling Cheat Sheet)
 
 ---
 
