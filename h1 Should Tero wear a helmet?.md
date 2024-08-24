@@ -1,9 +1,10 @@
 # Table of Contents
-1. [Threat Modeling](#threat-modeling)
-2. [Infosec Scene](#infosec-scene)
-a. - [Security Hygiene](#security-hygiene)
-b. - [Make-Belief Boogie-Man](#make-belief-boogie-man)
----
+
+1. [Threat Modeling](threat-modeling)
+   - [Infosec Scene](#infosec-scene)
+     - a. [Security Hygiene](#security-hygiene)
+     - b. [Make-Belief Boogie-Man](#make-belief-boogie-man)
+    ------------------
 
 ## Threat Modeling
 
