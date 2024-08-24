@@ -66,11 +66,11 @@ A simple use of a whiteboard is enough to brainstorm ideas and methods to record
 - Serving as a resource for CMS Penetration Testing and Contingency Planning activities
 
 #### References:
-- [CMS Threat Modeling Handbook :] (CMS Threat Modeling Handbook | CMS Information Security & Privacy Group)
-- [Threat Model and Security Considerations:] (RFC 6819 - OAuth 2.0 Threat Model and Security Considerations (ietf.org))
-- [Braiterman et al 2020:] (Threat modeling manifesto)
-- [Shostack 2022:]( Welcome to the World's Shortest Threat Modeling Course (12 parts, about 15 min total, audio is enough for all except video 7 "Data flow diagrams"))
-- [OWASP CheatSheets Series Team 2021:](Threat Modeling Cheat Sheet)
+- [CMS Threat Modeling Handbook](https://www.cms.gov/Information-Security-Privacy-Group/CMS-Threat-Modeling-Handbook)
+- [Threat Model and Security Considerations](https://www.ietf.org/rfc/rfc6819.txt)
+- [Braiterman et al 2020](https://threatmodelingmanifesto.org)
+- [Shostack 2022](https://microsoft.com/en-us/security/blog/2022/05/10/welcome-to-the-worlds-shortest-threat-modeling-course/)
+- [OWASP CheatSheets Series Team 2021](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html)
 
 ---
 
