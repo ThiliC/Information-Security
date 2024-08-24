@@ -139,8 +139,6 @@ This episode emphasizes the safety of the digital banking world. By following th
     - Internal networks – Employee workstations, internal databases, email servers, file servers. 
     - Employee credentials - Access to company systems.
 
-- **Draw a diagram of the company systems.**
-
 - **Customer is the king.**  
   Customer should trust that their transaction is secured. And if they have any issues, it can be solved quickly. Also, the payment gateway should be 100% trustworthy. And there should be a cash return policy if the customer is not satisfied with the product and service. 
 
