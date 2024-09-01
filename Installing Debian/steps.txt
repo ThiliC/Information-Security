@@ -1,0 +1,202 @@
+h2 Kill chain.
+
+X) Summary of "Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains"
+Cyber Defense Focus: The paper is all about using intelligence to make computer network defenses stronger by understanding how hackers think and operate.
+
+Attacker Campaigns: It talks about how hackers often plan their attacks like campaigns. If we understand these plans, we can better prepare for potential attacks.
+
+Intrusion Kill Chain: The authors introduce a model called the Intrusion Kill Chain. This breaks down the typical steps a hacker takes during an attack, like planning, launching the attack, and achieving their goals. If we can interrupt them at any point, we can stop the attack.
+
+Importance of Intelligence Analysis: They emphasize that looking at past attacks helps organizations make smarter decisions and better defenses for the future.
+
+Using Threat Intelligence: Organizations are encouraged to use threat intelligence—basically, information about potential threats—so they can stay ahead of hackers by learning from past events.
+
+Advice for Organizations: The paper suggests being proactive: using threat intelligence, continuously monitoring their systems, and having a response plan in place based on the kill chain model.
+
+Collaboration and Sharing: The authors stress that sharing information about threats between organizations can make everyone safer and improve overall cybersecurity.
+Reference:Hutchins et al 2011: Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains
+
+
+
+Detailed Technical Report: Installing Debian 12 " Bookworm" on VirtualBox (Windows Host).
+
+This report outlines the process to installing Debian 12 "Bookworm" on Virtual Machine. 
+
+Host - Windows
+Virtual Version- Version 7.0.20 r163906 (Qt5.15.2)
+Debian ISO - debian-live-12.6.0-amd64-xfce.iso
+
+Download source:
+Debian ISO - I downloaded Debian 12 ISO from debian-live-12.6.0-amd64-xfce.iso
+
+I opened the VirtualBox in my computer. 
+
+Create virtual Machine. 
+Clicked on New to create a new virtual machine.
+Name: Entered a suitable name for the virtual machine   (Eg: DebianTeroKarvinenCom)
+ISO Image: Selected the downloaded ISO file (debian-live-12.4.0-amd64-xfce.iso).
+Type: Set as Linux.
+Version: Set as Debian (64-bit).
+Skip Unattended Installation:
+
+Unchecked the option for Unattended Installation to proceed with a manual setup.
+
+Hardware Settings
+Memory Allocation:
+
+Base Memory: Set to 4096 MB to ensure smooth operation.
+Processor Configuration:
+
+CPU: Allocated 2 CPUs to the virtual machine.
+Hard Disk Setup:
+
+Selected Create a virtual hard disk now.
+File Location: Chosed a suitable directory on my host machine.
+Size: Allocated 60 GB for the virtual disk.
+Clicked Create to finalize the hard disk setup.
+
+ Start the Virtual Machine and Install Debian
+Booting:
+
+I started the virtual machine by double-clicking on it in the VirtualBox Manager.
+The VM booted from the Debian ISO, displaying the boot menu.
+Selected Live System to boot into a live session of Debian.
+
+Testing Basic Functionality:
+
+After logging in, I opened a web browser and searched for a random topic to ensure that the keyboard, mouse, and network were functioning correctly.
+
+Launching the Installer:
+
+After confirming the live environment worked correctly, I clicked the Install Debian icon on the desktop to begin the installation.
+
+Language and Locale Settings:
+
+Language: Selected American English.
+Time Zone: Chose Europe, Helsinki as the time zone.
+Keyboard: Selected Finnish Keyboard.
+Partitioning the Disk:
+
+Chose the option to Erase Disk and proceeded with default partitioning.
+Confirmed the setup and started the installation.
+ 
+User Setup During Debian Installation
+User Information:
+Entered my full name
+chose a login namer
+Assigned a computer name
+Created a pawwword
+
+After checking the summary
+Clicked Install to begin the installation process. This took approximately 10 minutes.
+
+Completion: Once the installation is completed, clicked Done and choose to Restart Now.
+
+ Post-Installation Setup
+First Boot:
+
+The installation completed successfully, and I rebooted the virtual machine.
+I was greeted with the login screen, where I entered the credentials created during installation.
+Testing Basic Functionality:
+
+After logging in, I opened a web browser and searched for a random topic to ensure that the keyboard, mouse, and network were functioning correctly.
+
+b) Voluntary bonus: Update all software on your Linux box using 'apt-get'.
+
+Update All Software:
+Opened the terminal: Applications: Terminal Emulator.
+ 
+ran the following commands to update the system
+sudo apt-get update
+sudo apt-get -y dist-upgrade
+This updated all packages to their latest versions.
+This took a while. Should not interrupt the upgrade while it is working and should not close the window before done. 
+
+rebooted after upgraded as the kernel "linux-image" was upgraded. 
+
+I installed firewall and turned it on . 
+$ sudo apt-get -y install ufw
+$ sudo ufw enable
+
+c) Voluntary bonus: Install a local web server on Linux, 'apache2'.
+Reference: https://terokarvinen.com/2008/install-apache-web-server-on-ubuntu-4/
+
+I installed apache 
+
+$ sudo apt-get install apache2
+
+
+Test it
+Surf to your own server on your own local computer:
+$ firefox "http://localhost"
+This directed to my web browser
+
+d) Voluntary bonus: Download a web page from your local web server - manually, using netcat 'nc'.
+
+reference:https://www.geeksforgeeks.org/how-to-make-an-http-get-request-manually-with-netcat/?ref=oin_asr9nc/
+
+I installed netcat to the system 
+sudo apt-get install netcat
+
+then I used Wikipedia webpage to download
+cat wikipedia.org
+after enter manually typed
+GET /wiki/Main_Page HTTP/1.1
+Host: Wikipedia.org:8080
+Connection: close
+
+the wepage downloaded 
+
+e) Voluntary bonus: Find a log line created by your manual web page download in previous task.
+reference: https://www.loggly.com/use-cases/how-to-monitor-your-apache-logs/
+
+OpenAI. (2024). ChatGPT (GPT-4). 
+
+
+
+first i used 
+/var/log/apache2/access.log command. but the access was denied, then used the below command
+sudo tail -n 10 /var/log/apache2/access.log
+
+f) Voluntary bonus: ATT&CK. Compare MITRE ATT&CK framework to Cyber Kill Chain.
+Cyber kill chain framework for understadnign and preventing s=cyber attacks.. It breakdown the process into seven phases. 
+-Reconnaissance
+-Weaponisation
+-DElivery
+-Exploitation
+-Installation
+-command
+-ACTION control
+-action on objectives
+By understanding these phases, security
+professionals can develop effective mitigation strategies to protect from attack.
+
+
+MITRE ATT&CK is a framework, developed by a non-profit organisation MITRE in 2013, to consider each stage of the cyberattack lifecycle from the perspective of the
+attacker. It is a globally accessible knowledge base of adversary Tactics, Techniques,
+and Procedures (TTP) based on real-world observations. The ATTaCK knowledge
+base is used as a foundation for the development of specific threat models and
+methodologies in the private sector, in government, and in the cybersecurity product
+and service community.
+
+Level of Detail:
+
+MITRE ATT&CK provides a more granular approach, with a detailed catalog of techniques and tactics. This allows for precise threat modeling and defense strategies.
+Cyber Kill Chain outlines broader phases of an attack, making it easier to conceptualize the overall attack lifecycle.
+Application:
+
+The ATT&CK framework is widely used for threat hunting, incident response, and defensive measures based on observed techniques.
+The Kill Chain is often used for developing security postures and proactive measures to prevent attacks by disrupting them at various stages.
+Adaptability:
+
+The ATT&CK framework is continuously updated with new tactics and techniques based on current threat landscapes.
+The Kill Chain is more static and may not account for the evolving nature of cyber threats.
+
+reference:https://www.obriain.com/training/otsec2/odt/Topic_2-Cyber_Kill_Chain-MITRE_ATT&CK_for_ICS_odt.pdf
+
+
+
+
+
+
+
