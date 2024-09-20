@@ -73,8 +73,7 @@ to saveand quit the message --> ctrl+s and ctrl Q
 ![image](https://github.com/user-attachments/assets/e36b1319-6051-41a5-adaa-d85c670f5dfd)
 
 
-#### b)
-Open and cloudless Password Manager. 
+#### b) Open and cloudless Password Manager. 
 **Reference** - https://www.passwordmanager.com/best-offline-password-managers/
 
 I used **KeePassXC**
@@ -82,6 +81,10 @@ It is a powerful free suite of security tool for managing passwords. It includes
 No access loss to any features if we loss internet connections. It also can be directly run from a USB device. 
 
 -Install KeePassXC
+```
+sudo apt update
+sudo apt install keepassxc
+```
 
 ![image](https://github.com/user-attachments/assets/e7aa2b73-38ad-430f-9d15-3744596cd9cb)
 
@@ -96,7 +99,7 @@ No access loss to any features if we loss internet connections. It also can be d
 - Many people reuse the same passwords in multiple accounts which easily leads to attacks.
   if one site/account fets hacked, the attackers can use the password to log into all the accounts. But password manager helps to create unique, strong passwords for each service, reducing the risk.
 
--Brute fore attack - trying many combinations to guess a password. By using the password manager, users make brute forcing extremly difficult. It can give passwords over 12 characters. 
+- Brute fore attack - trying many combinations to guess a password. By using the password manager, users make brute forcing extremly difficult. It can give passwords over 12 characters. 
 
 - Phishing protections.- When using a password manager prevents the "auto fill" loging informations.
 - Password Leaks and Data Breaches - Attackers might try your stolen password elsewhere. Since password managers encourages unique passwords for each service, a breach at one site won’t affect others.
