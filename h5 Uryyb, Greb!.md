@@ -73,6 +73,34 @@ to saveand quit the message --> ctrl+s and ctrl Q
 ![image](https://github.com/user-attachments/assets/e36b1319-6051-41a5-adaa-d85c670f5dfd)
 
 
+#### b)
+Open and cloudless Password Manager. 
+**Reference** - https://www.passwordmanager.com/best-offline-password-managers/
+
+I used **KeePassXC**
+It is a powerful free suite of security tool for managing passwords. It includes security protocols and is updated constantly. All the feature are usable offline. Encyption and storage happends on the device and only decrypt by master password. 
+No access loss to any features if we loss internet connections. It also can be directly run from a USB device. 
+
+-Install KeePassXC
+
+![image](https://github.com/user-attachments/assets/e7aa2b73-38ad-430f-9d15-3744596cd9cb)
+
+![image](https://github.com/user-attachments/assets/28f9f203-1840-4ad1-86ea-23639a19d573)
+
+- In this need to **"Create New Database"** to create a new password vault. 
+- Set master password. - This will be the only password the user need to remember. The strength of the password should be critical so that it protects all other stored passwords. 
+- The database is stores locally on the machine, not in the cloud.
+
+
+#### Why password manager is needed. 
+- Many people reuse the same passwords in multiple accounts which easily leads to attacks.
+  if one site/account fets hacked, the attackers can use the password to log into all the accounts. But password manager helps to create unique, strong passwords for each service, reducing the risk.
+
+-Brute fore attack - trying many combinations to guess a password. By using the password manager, users make brute forcing extremly difficult. It can give passwords over 12 characters. 
+
+- Phishing protections.- When using a password manager prevents the "auto fill" loging informations.
+- Password Leaks and Data Breaches - Attackers might try your stolen password elsewhere. Since password managers encourages unique passwords for each service, a breach at one site won’t affect others.
+
 
 
 
