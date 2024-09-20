@@ -89,7 +89,7 @@ Explanation:
 - I: Another common vowel seen in short words like "is," "it," and "in."
 - O: A vowel that appears in many important words ("on," "not," "to").
 - T: A consonant that is common in English due to its use in articles, pronouns, and verbs ("the," "to," "at").
-- 
+  
 These letters are dominant in English text because they occur frequently in small, everyday words and are essential for sentence construction.
 
 **Reference** - https://www3.nd.edu/~busiforc/handouts/cryptography/letterfrequencies.html
