@@ -72,6 +72,28 @@ to saveand quit the message --> ctrl+s and ctrl Q
   
 ![image](https://github.com/user-attachments/assets/e36b1319-6051-41a5-adaa-d85c670f5dfd)
 
+#### O)
+The frequency of the letters of the alphabet in English
+The inventor of Morse code, Samuel Morse (1791-1872), needed to know this so that he could give the simplest codes to the most frequently used letters. He did it simply by counting the number of letters in sets of printers' type. The figures he came up with were:	
+
+![image](https://github.com/user-attachments/assets/9f00fa74-cfaa-4ab4-9fba-c9ad92e8d796)
+
+Further, for English, based on both historical data and linguistic analysis, the six most common letters are:
+
+E,A,R,I,O,T
+
+Explanation:
+- E: The most common letter in the English language, occurring frequently in various word structures, both in vowels and endings (like "the," "be," "she").
+- A: A fundamental vowel that appears in many basic words ("and," "apple," "cat").
+- R: A highly frequent consonant used in common words like "are," "run," "red."
+- I: Another common vowel seen in short words like "is," "it," and "in."
+- O: A vowel that appears in many important words ("on," "not," "to").
+- T: A consonant that is common in English due to its use in articles, pronouns, and verbs ("the," "to," "at").
+- 
+These letters are dominant in English text because they occur frequently in small, everyday words and are essential for sentence construction.
+
+**Reference** - https://www3.nd.edu/~busiforc/handouts/cryptography/letterfrequencies.html
+              - https://en.wikipedia.org/wiki/Letter_frequency
 
 #### b) Open and cloudless Password Manager. 
 **Reference** - https://www.passwordmanager.com/best-offline-password-managers/
