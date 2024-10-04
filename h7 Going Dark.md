@@ -56,6 +56,4 @@ The New York Times has an official onion site that allows people to access their
 
 **Reference**
 - https://www.expressvpn.com/blog/best-onion-sites-on-dark-web/#:~:text=Onion%20sites%20(aka%20Tor%20sites)%20are%20websites
-- 
-- 
-
+- https://terokarvinen.com/#:~:text=Tero's%20books%20on%20Amazon,%20over%20500k%20sold.
