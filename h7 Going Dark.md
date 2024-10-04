@@ -1,7 +1,7 @@
-## x) Read and summarize ##
+## x) Read and summarize ## 
 
-**Quintin 2014**
-What is Tor?
+**Quintin 2014** & **Shavers & Bair 2016**
+ What is Tor?
 
  Tor is a free, open source software and network that enables anonymous web browsing. 
  Tor directs internet traffic via a voulanteer overlay network that consists of more than seven thousand relays. It can help to use the internet with more privacy. 
@@ -14,4 +14,8 @@ Tor is easy to use.
   **Important**
   - Always keep software upto date.
   - If you log into Google, Facebook via TOR, those services can see your communications from their systems.
-  - Adversary who can see both sides can be perform statistical analysis to confirm that the the traffic belongs to you. 
+  - Adversary who can see both sides can be perform statistical analysis to confirm that the the traffic belongs to you.
+
+## Install TOR browser and access TOR network ## 
+
+
