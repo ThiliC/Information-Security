@@ -2,9 +2,10 @@
 
 **Quintin 2014**
 What is Tor?
-Tor is a free, open source software and network that enables anonymous web browsing. 
-Tor directs internet traffic via a voulanteer overlay network that consists of more than seven thousand relays. It can help to use the internet with more privacy. 
-But according to the article, it can't prevent someone moitoring my network traffic and the network traffic of the internet service I am communicating with. It means that the design relies on at least one side of the connection not being watched by the person i am trying to keep my information private from. 
+
+ Tor is a free, open source software and network that enables anonymous web browsing. 
+ Tor directs internet traffic via a voulanteer overlay network that consists of more than seven thousand relays. It can help to use the internet with more privacy. 
+ But according to the article, it can't prevent someone moitoring my network traffic and the network traffic of the internet service I am communicating with. It      means that the design relies on at least one side of the connection not being watched by the person i am trying to keep my information private from. 
 
 Tor is easy to use. 
 - The easiest way to get started with Tor is to download the Tor Browser Bundle.
