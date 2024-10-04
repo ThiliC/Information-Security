@@ -17,5 +17,20 @@ Tor is easy to use.
   - Adversary who can see both sides can be perform statistical analysis to confirm that the the traffic belongs to you.
 
 ## Install TOR browser and access TOR network ## 
+I donwloaded TOR browser to the VM,
+![image](https://github.com/user-attachments/assets/97e50ce0-782f-4003-818a-ae5a6d32bc4f)
+![image](https://github.com/user-attachments/assets/057793f9-e911-470e-a57a-d9cae323f115)
+
+Then I run the follwoing commands
+
+![image](https://github.com/user-attachments/assets/5d264a36-5af7-4d8d-9041-97b75a11661e)
+
+![image](https://github.com/user-attachments/assets/38a14644-aae4-4df1-b269-07be80c1a757)
+
+Search onion sites, it took me long time connect to search websites. 
+![image](https://github.com/user-attachments/assets/70daacf0-adf4-48c9-ac8c-3871b0facfc3)
+
+
+
 
 
