@@ -27,10 +27,35 @@ Then I run the follwoing commands
 
 ![image](https://github.com/user-attachments/assets/38a14644-aae4-4df1-b269-07be80c1a757)
 
-Search onion sites, it took me long time connect to search websites. 
-![image](https://github.com/user-attachments/assets/70daacf0-adf4-48c9-ac8c-3871b0facfc3)
+Search onion sites,
+- ## Ahmia
+
+Ahmia is a search engine that helps you find websites on the TOR network (the "dark web"). Unlike regular search engines like Google, Ahmia focuses on .onion websites, which can only be accessed using the TOR browser.
+
+- ![image](https://github.com/user-attachments/assets/1829a240-73dd-47d9-bdfb-79e1bc0c998e)
+
+- ## Market - Venus
+
+"Venus Market" is or was one of the many darknet marketplaces that existed on the TOR network. These markets usually allow users to buy and sell goods anonymously, often with cryptocurrencies like Bitcoin.
+
+![image](https://github.com/user-attachments/assets/0fb6cb59-b407-4044-ba9c-a9af24814956)
 
 
+- ## Forum - PGP shop
 
+PGP Shop or PG Shop forums are often associated with darknet marketplaces and communities focused on encrypted communication, using PGP (Pretty Good Privacy) encryption to facilitate anonymous transactions or discussions.
 
+![image](https://github.com/user-attachments/assets/6392b062-bbab-4bd2-9db4-1267f1ac3814)
+
+- ## The real-world organisation's page - The New York Times
+https://www.nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion/
+
+The New York Times has an official onion site that allows people to access their content through the TOR network for added privacy and to bypass censorship in certain countries.
+
+![image](https://github.com/user-attachments/assets/efb48f32-902f-4746-b777-d7ce61a1e03f)
+
+**Reference**
+- https://www.expressvpn.com/blog/best-onion-sites-on-dark-web/#:~:text=Onion%20sites%20(aka%20Tor%20sites)%20are%20websites
+- 
+- 
 
